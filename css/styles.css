@@ -49,7 +49,12 @@ a{
 
 .nav-menu .font-style{
     color: var(--primiry);
+    font-weight: 500;
     
+}
+
+.nav-contacts .font-style{
+    font-weight: 500;
 }
 
 .nav-menu .font-style.current{
@@ -125,8 +130,14 @@ a{
     line-height: calc(24/12);
 }
 
-.contacts .font-style{
+.adress .font-style.color-contacts{
     color: rgba(255, 255, 255, 0.6);;
+}
+
+.adress .font-style:hover,
+.adress .font-style:focus
+{
+    color: var(--acent);
 }
 
 
